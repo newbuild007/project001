@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Class</title>
+</head>
+<style>
+    .submit {
+        background-color: black;
+        color: greenyellow;
+        border: none;
+        border-radius: 15px;
+        width: 150px;
+        padding: 5px;
+    }
+
+    .nextpage {
+        padding: 10px;
+        background: blueviolet;
+        width: 200px;
+        border: none;
+        color: white;
+        border-radius: 5px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .clickhere {
+        background-color: gold;
+        color: black;
+        border: none;
+        border-radius: 15px;
+        width: 150px;
+        padding: 5px;
+    }
+</style>
+
+<body>
+
+    <h1>FORM CLASS 1</h1>
+
+    <!-- FORMS AND FORMS ATTRIBUTES -->
+
+
+    <form>
+        <fieldset style="width: 30%; background: azure; text-align: center; margin-left: 100px;">
+            <legend>
+                <h3>Personal Information</h3>
+            </legend>
+
+            <label for="name"><b>First Name:</b></label>
+            <input type="text" Id="" placeholder="First Name" autofocus required><br><br>
+
+            <label for="name"><b>Second Name:</b></label>
+            <input type="text" Id="" placeholder="Second Name" autofocus required><br><br>
+
+            <label for="number"><b>Phone Number:</b></label>
+            <input type="number" Id="" autofocus required><br><br>
+
+            <!-- Gender  -->
+
+            <label for="gender"><b>Gender:</b></label>
+
+            <label for="female">Female</label>
+            <input type="radio" name="gender" autofocus required>
+
+            <label for="male">Male</label>
+            <input type="radio" name="gender" autofocus required><br><br>
+
+            <button type="button" class="clickhere">CLICK HERE</button><br><br>
+
+            <input type="checkbox" Id="">
+            <label for="remindme">Do yo accept to these terms and conditions?</label><br><br>
+
+
+            <!-- To Create a Dropdown -->
+
+            <label for=""><b>Select your car:</b></label>
+
+            <select name="cars" id="select" autofocus required>
+                <option value="">Choose One</option>
+                <option value="">Mazda</option>
+                <option value="">Camry</option>
+                <option value="">Lexus</option>
+                <option value="">Toyota</option>
+                <option value="">Nissan</option>
+            </select>
+            <br><br>
+
+            <input type="submit" value="SUBMIT" class="submit">
+        </fieldset>
+    </form>
+    <br><br>
+    <center>
+        <button class="nextpage">
+            <a href="formclasswork1.html">FORM CLASS WORK</a>
+        </button>
+    </center>
+
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Important Information</title>
+</head>
+<style>
+    body {
+        background-color: rgb(58, 58, 182);
+    }
+
+    form {
+        width: 40%;
+        padding: 30px;
+        border-radius: 7px;
+        outline: none;
+        font-family: roboto, cambria, sans-serif;
+    }
+
+    fieldset {
+        border-radius: 7px;
+    }
+
+    /*  
+.wide {
+    padding:6px;
+    width: 30%;
+    */
+
+    .floor {
+        padding: 6px;
+        width: 10%;
+    }
+
+    input {
+        padding: 6px;
+        border-radius: 7px;
+    }
+
+    select {
+        padding: 6px;
+        width: 25%;
+        border-radius: 7px;
+    }
+
+    label {
+        color: white;
+    }
+
+    button {
+        padding: 10px;
+        width: 117%;
+        border-radius: 7px;
+        color: rgb(53, 53, 166);
+        font-weight: 600;
+    }
+
+    textarea {
+        border-radius: 7px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+</style>
+
+<body>
+
+    <form action="">
+
+        <fieldset>
+
+            <legend>
+                <h3>Important Information</h3>
+            </legend>
+
+            <select name="country" id="">
+                <option value="country">Country</option>
+                <option value="">Nigeria</option>
+                <option value="">Zimbabwe</option>
+                <option value="">Ghana</option>
+                <option value="">USA</option>
+                <option value="">UAE</option>
+            </select>
+
+            <input type="text" placeholder="Village">
+            <input type="text" placeholder="District">
+            <br><br>
+
+            <input type="text" placeholder="Street">
+            <input type="text" placeholder="Nr" class="floor">
+            <input type="text" placeholder="Floor" class="floor">
+            <input type="text" placeholder="Apt Nr" class="floor">
+            <br><br>
+
+            <label for="">Door Color</label><br>
+            <input type="text" style="background-color: rgb(185, 49, 126);">
+            <input type="text" placeholder="Water Meter Nr">
+
+            <select name="" id="">
+
+                <option value="size">Aunt Panties Size</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+
+            </select><br><br>
+
+            <label for="">More Personal Information</label><br>
+            <textarea name="" id="" cols="80" rows="4" placeholder="More About Yourself!!!"></textarea>
+
+        </fieldset><br><br>
+
+        <button>Register</button><br><br>
+        <button><a href="index.html">BACK TO HOMEPAGE</a></button>
+    </form>
+
+</body>
+
+</html>

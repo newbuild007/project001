@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(53, 53, 212);
+}
+
+form {
+    background-color: white;
+    width: 20%;
+    padding: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+#email1 {
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: rgb(86, 159, 243);
+    outline: none;
+}
+
+#pass1 {
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: rgb(192, 185, 185);
+    outline: none;
+}
+
+.login {
+    padding: 10px;
+    width: 275px;
+    background: rgba(64, 64, 255, 0.965);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.withface {
+    padding: 8px;
+    width: 275px;
+    background: rgba(46, 46, 114, 0.965);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.email {
+    margin-right: 185px;
+}
+
+.pass {
+    margin-right: 220px;
+    margin-bottom: -10%;
+
+}
+
+.forgot {
+    margin-left: 230px;
+    color: rgb(52, 52, 232);
+    margin-top: 5%;
+}
+
+.create {
+    color: rgb(52, 52, 232);
+}
+
+h2 {
+    margin-top: -8%;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nextpage {
+    padding: 10px;
+    width: 150px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
