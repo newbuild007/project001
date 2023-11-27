@@ -11,7 +11,7 @@ form {
     border-radius: 10px;
 }
 
-#email1 {
+#email {
     padding: 10px;
     width: 250px;
     border-radius: 5px;
@@ -19,7 +19,7 @@ form {
     outline: none;
 }
 
-#pass1 {
+#pass {
     padding: 10px;
     width: 250px;
     border-radius: 5px;
@@ -27,7 +27,7 @@ form {
     outline: none;
 }
 
-.login {
+.in {
     padding: 10px;
     width: 275px;
     background: rgba(64, 64, 255, 0.965);
@@ -36,7 +36,7 @@ form {
     border-radius: 5px;
 }
 
-.withface {
+.fcb {
     padding: 8px;
     width: 275px;
     background: rgba(46, 46, 114, 0.965);
@@ -45,24 +45,10 @@ form {
     border-radius: 5px;
 }
 
-.email {
-    margin-right: 185px;
-}
-
-.pass {
-    margin-right: 220px;
-    margin-bottom: -10%;
-
-}
-
 .forgot {
     margin-left: 230px;
     color: rgb(52, 52, 232);
     margin-top: 5%;
-}
-
-.create {
-    color: rgb(52, 52, 232);
 }
 
 h2 {
@@ -74,10 +60,12 @@ a {
     text-decoration: none;
 }
 
-.nextpage {
+.link {
     padding: 10px;
-    width: 150px;
-    border: none;
     color: white;
-    border-radius: 5px;
+    background: green;
+    border-radius: 7px;
+}
+.top {
+    margin-right: 180px;
 }

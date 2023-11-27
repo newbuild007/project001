@@ -6,29 +6,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        table {
+            border: 2px, solid black;
+            border-collapse: collapse;
+            background: rgb(96, 107, 209);
+            color: white;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 5px;
+            background: green;
+            color: white;
+            border-radius: 5px;
+            margin-left: 300px;
+        }
+    </style>
+
 </head>
-<style>
-    table {
-        border: 2px, solid black;
-        border-collapse: collapse;
-        background: yellow;
-    }
 
-    button {
-        padding: 10px;
-        width: 200px;
-        outline: none;
-        border-radius: 5px;
-        border: none;
-    }
-
-    a {
-        text-decoration: none;
-    }
-</style>
 
 <body>
     <table border="2" cellpadding="6">
+
         <tr>
             <th>DAYS</th>
             <th>1st Period</th>
@@ -42,7 +44,7 @@
         </tr>
 
         <tr>
-            <td><b>MONDAY</b></td>
+            <th>MONDAY</th>
             <td>Chemistry</td>
             <td>Maths</td>
             <td>English</td>
@@ -54,7 +56,7 @@
         </tr>
 
         <tr>
-            <td><b>TUESDAY</b></td>
+            <th>TUESDAY</th>
             <td>Biology</td>
             <td>Physics</td>
             <td>English</td>
@@ -66,7 +68,7 @@
         </tr>
 
         <tr>
-            <td><b>WEDNESSDAY</b></td>
+            <th>WEDNESSDAY</th>
             <td>Biology</td>
             <td>Physics</td>
             <td>English</td>
@@ -78,7 +80,7 @@
         </tr>
 
         <tr>
-            <td><b>THURSDAY</b></td>
+            <th>THURSDAY</th>
             <td>Biology</td>
             <td>Physics</td>
             <td>English</td>
@@ -90,7 +92,7 @@
         </tr>
 
         <tr>
-            <td><b>FRIDAY</b></td>
+            <th>FRIDAY</th>
             <td>Chemistry</td>
             <td>Maths</td>
             <td>English</td>
@@ -102,26 +104,11 @@
         </tr>
 
     </table>
-    <p>
-    <table border="2" cellpadding="6">
 
-        <tr>
-            <td colspan="2">A</td>
-            <td rowspan="2">B</td>
-
-        </tr>
-
-        <tr>
-            <td>C</td>
-            <td>D</td>
-        </tr>
-
-
-    </table>
     <br><br>
-    <center>
-        <button><a href="exercise.html">Back to Exercice</a></button>
-    </center>
+
+    <a href="exercise.html">Back to Exercice</a>
+
 </body>
 
 </html>

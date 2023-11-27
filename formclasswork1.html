@@ -5,89 +5,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<style>
-    button {
-        border-radius: 10px;
-        background: rgb(131, 37, 37);
-        color: white;
-        padding: 5px;
-    }
 
-    .submit {
-        border-radius: 10px;
-        background: rgb(131, 37, 37);
-        color: white;
-        padding: 5px;
-        margin-left: 33%;
-    }
-    a {
-        text-decoration: none;
-    }
-    body {
-        background: antiquewhite;
-    }
-</style>
+    <style>
+        button {
+            border-radius: 5px;
+            background: rgb(131, 37, 37);
+            color: white;
+            padding: 5px;
+        }
+
+        .submit {
+            border-radius: 5px;
+            background: rgb(131, 37, 37);
+            color: white;
+            padding: 5px;
+            margin-left: 330px;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 5px;
+            background: green;
+            color: white;
+            border-radius: 5px;
+            margin-left: 150px;
+        }
+
+        body {
+            background: antiquewhite;
+        }
+    </style>
+
+</head>
+
 
 <body>
+
     <h1>Student Data Entry Form</h1>
 
     <form>
 
         <label for="name">Student Name:</label>
-        <input type="text" Id="" autofocus required placeholder="Student Name"><br><br>
+        <input type="text" Id="name" placeholder="Student Name" required><br><br>
 
         <label for="email">Email:</label>
-        <input type="text" Id="" autofocus required placeholder="Email"><br><br>
+        <input type="text" Id="email" placeholder="Email" required><br><br>
 
         <label for="gender">Gender:</label>
-        <input type="radio" name="gender" autofocus required>
+        <input type="radio" name="gender" required>
         <label for="boy">Boy</label>
-        <input type="radio" name="gender" autofocus required>
+        <input type="radio" name="gender" required>
         <label for="boy">Girl</label><br><br>
 
         <label for="subject">Subjects:</label>
-        <input type="checkbox" name="">
+        <input type="checkbox" name="tamil">
         <label for="tamil">Tamil</label>
-        <input type="checkbox" name="">
+        <input type="checkbox" name="telugu">
         <label for="telugu">Telugu</label>
-        <input type="checkbox" name="">
-        <label for="end">English</label>
-        <input type="checkbox" name="">
+        <input type="checkbox" name="eng">
+        <label for="eng">English</label>
+        <input type="checkbox" name="phy">
         <label for="phy">Physics</label>
-        <input type="checkbox" name="">
+        <input type="checkbox" name="eco">
         <label for="eco">Econimics</label>
 
         <br><br>
 
         <label for="city">City / Town:</label>
 
-        <select name="cities" id="select">
-            <option value="">Choose One</option>
-            <option value="">Ibadan</option>
-            <option value="">Akure</option>
-            <option value="">Ikeja</option>
-            <option value="">Osodi</option>
+        <select name="cities" id="city">
+            <option value="choose">Choose One</option>
+            <option value="ibd">Ibadan</option>
+            <option value="akure">Akure</option>
+            <option value="ikj">Ikeja</option>
+            <option value="osodi">Osodi</option>
         </select><br><br>
 
         <label for="comment">Comments:</label><br>
-        <textarea name="comment" id="" cols="60" rows="10" autofocus required placeholder="Comments"></textarea>
+        <textarea name="comment" id="comment" cols="60" rows="10" placeholder="Comments" required></textarea>
         <br><br>
 
         <button type="button">CLEAR</button>
         <input type="submit" value="SUBMIT" class="submit"><br><br>
 
-        <center>
-            <button type="button">
-                <a href="formclasswork2.html" style="color: white;">FORM CLASS WORK 2</a>
-            </button>
-        </center>
-
+        <a href="formclasswork2.html" style="color: white;">FORM CLASS WORK 2</a>
 
     </form>
-
-
-
 
 </body>
 

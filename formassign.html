@@ -5,109 +5,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        body {
+            background-color: blueviolet;
+        }
+
+        form {
+            background-color: white;
+            padding: 30px;
+            width: 20%;
+            border-radius: 5px;
+            font-family: roboto, sans-serif;
+            font-size: 14px;
+
+        }
+
+        button {
+            padding: 10px;
+            width: 275px;
+            outline: none;
+            border-radius: 5px;
+            border: none;
+        }
+
+        #user {
+            width: 250px;
+            padding: 10px;
+            border-color: rgb(155, 76, 228);
+            outline: none;
+            border-radius: 5px;
+        }
+
+        #pass {
+            width: 250px;
+            border-color: black;
+            padding: 10px;
+            outline: none;
+            border-radius: 5px;
+        }
+
+        .p3 {
+            margin-top: -6%;
+            text-align: center;
+        }
+
+        .p1 {
+            text-align: justify;
+            margin-top: -8%;
+            margin-left: 3px;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 5px;
+            background: green;
+            color: white;
+            border-radius: 5px;
+        }
+    </style>
+
 </head>
-<style>
-    body {
-        background-color: blueviolet;
-
-    }
-
-    form {
-        background-color: white;
-        padding: 30px;
-        width: 20%;
-        border-radius: 5px;
-        font-family: roboto, sans-serif;
-        font-size: 14px;
-
-    }
-
-    button {
-        padding: 10px;
-        width: 275px;
-        outline: none;
-        border-radius: 5px;
-        border: none;
-    }
-
-    #user {
-        width: 250px;
-        padding: 10px;
-        border-color: rgb(155, 76, 228);
-        outline: none;
-        border-radius: 5px;
-    }
-
-    #pass {
-        width: 250px;
-        border-color: black;
-        padding: 10px;
-        outline: none;
-        border-radius: 5px;
-    }
-
-    .p3 {
-        margin-top: -6%;
-        text-align: center;
-    }
-
-    .p1 {
-        text-align: justify;
-        margin-top: -8%;
-        margin-left: 3px;
-    }
-    .nextpage {
-        padding: 10px;
-        width: 150px;
-        outline: none;
-        border-radius: 5px;
-        border: none;
-    }
-    a {
-        text-decoration: none;
-    }
-</style>
-
 
 <body>
+
     <center>
+
         <h1 style="margin-right: 170px; color: white;">pixelgrade</h1>
 
         <form>
 
-            <h1 style="color: blueviolet; margin-right: 180px;">Sign in</h1>
+            <h1 style="color: blueviolet; margin-right: 160px;">Sign in</h1>
             <br>
             <p class="p1">You know how much a squirrel misses his <br>
                 nuts? Yep, that is how much we missed you
             </p>
 
-            <p class="p2" style="margin-right: 170px;"><b>Welcome back.</b></p>
+            <p class="p2" style="margin-right: 150px;"><b>Welcome back.</b></p>
 
 
-            <input type="username" id="user" placeholder="Username or Email Address" autofocus required><br><br>
-            <input type="pass" id="pass" placeholder="Password" authofocus required><br><br>
+            <input type="text" id="user" placeholder="Username or Email Address" required><br><br>
+            <input type="text" id="pass" placeholder="Password" required><br><br>
 
 
-            <input type="checkbox" name="">
+            <input type="checkbox" id="stay">
             <label for="stay">Stay Signed in for longer</label>
             <br><br>
 
 
-            <button type="button" style="background-color: rgb(101, 205, 205);">Sign into your account</button><br><br>
+            <button type="button" style="background-color: rgb(101, 205, 205);">Sign into your account</button>
+
+            <br><br>
             <hr>
+
             <p class="p3">or</p>
-            <button type="button1">Continue with Evanto</button>
-
-
+            <button type="button">Continue with Evanto</button>
 
         </form>
 
         <br><br>
-        <button class="nextpage">
-            <a href="exercise.html">Information Form</a>
-        </button>
+
+        <a href="exercise.html">Information Form</a>
 
     </center>
+
 </body>
 
 </html>

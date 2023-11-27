@@ -5,32 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
+
+    <style>
+        table {
+            margin-left: 50px;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px;
+            background: blueviolet;
+            width: 150px;
+            border: none;
+            color: white;
+            border-radius: 5px;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 5px;
+            background: green;
+            color: white;
+            border-radius: 5px;
+            margin-left: 150px;
+        }
+
+        .submit {
+            margin-left: 50px;
+        }
+    </style>
+
 </head>
-
-<style>
-    table {
-        margin-left: 50px;
-        border-radius: 5px;
-    }
-
-    button {
-        padding: 10px;
-        background: blueviolet;
-        width: 150px;
-        border: none;
-        color: white;
-        border-radius: 5px;
-    }
-
-    a {
-        text-decoration: none;
-    }
-</style>
 
 <body>
 
-    <table border="" cellpadding="8">
-        <form action="">
+    <table border="2" cellpadding="10">
+
+        <form>
+
             <tr>
                 <th colspan="2">Registration Form</th>
             </tr>
@@ -58,9 +70,9 @@
             <tr>
                 <td name="gender">Gender</td>
                 <td>
-                    <label for="make">Male</label>
+                    <label for="ml">Male</label>
                     <input type="radio" name="gender" required>
-                    <label for="female">Female</label>
+                    <label for="fml">Female</label>
                     <input type="radio" name="gender" required>
                 </td>
             </tr>
@@ -69,14 +81,17 @@
                 <td>Email ID</td>
                 <td><input type="text"></td>
             </tr>
+
             <tr>
                 <td>Mobile Number</td>
-                <td><input type="number" name="" id=""></td>
+                <td><input type="number" id="number"></td>
             </tr>
+
             <tr>
                 <td>Address</td>
-                <td><textarea name="" id="" cols="15" rows="3" style="width: 165px;"></textarea></td>
+                <td><textarea name="address" id="address" cols="15" rows="3" style="width: 165px;"></textarea></td>
             </tr>
+
             <tr>
                 <td>State</td>
                 <td><input type="text"></td>
@@ -89,9 +104,9 @@
 
             <tr>
                 <td colspan="2">
-                    <center>
-                        <input type="submit" value="submit" style="padding: 5px; width: 100px;">
-                    </center>
+
+                    <input type="submit" value="submit" class="submit" style="padding: 7px; width: 200px;">
+
                 </td>
             </tr>
 
@@ -99,11 +114,10 @@
 
     </table>
 
-    <center>
-        <button>
-            <a href="formassign.html">Form Assignment</a>
-        </button>
-    </center>
+    <br><br>
+
+    <a href="formassign.html">Form Assignment</a>
+
 </body>
 
 </html>

@@ -5,88 +5,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        input {
+            margin-left: 30px;
+            border-radius: 5px;
+        }
+
+        .select {
+            margin-left: 30px;
+            border-radius: 20px;
+        }
+
+        button {
+            border-radius: 5px;
+            border-color: aqua;
+            padding: 6px;
+            width: 200px;
+        }
+
+        body {
+            background-color: antiquewhite;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 5px;
+            background: green;
+            color: white;
+            border-radius: 5px;
+            margin-left: 200px;
+        }
+    </style>
+
 </head>
-<style>
-    input {
-        margin-left: 30px;
-        border-radius: 5px;
-    }
-
-    .select {
-        margin-left: 30px;
-        border-radius: 20px;
-    }
-
-    button {
-        border-radius: 5px;
-        border-color: aqua;
-        padding: 6px;
-        width: 200px;
-    }
-
-    body {
-        background-color: antiquewhite;
-    }
-    a {
-        text-decoration: none;
-    }
-</style>
 
 <body>
-    
-        <form action="">
-            <h1>Personal Information</h1>
 
-            <label for="name">Username:</label>
-            <input type="text" id="" autofocus required>
-            <br><br>
+    <form>
 
-            <label for="pass">Password:</label>
-            <input type="text" id="" autofocus required>
-            <br><br>
+        <h1>Personal Information</h1>
 
-            <label for="city">City of Employment:</label>
-            <input type="text" id="" autofocus required>
-            <br><br>
+        <label for="user">Username:</label>
+        <input type="text" id="user" required>
+        <br><br>
 
-            <label for="server">Web Server:</label>
-            <select name="server" id="" class="select">
-                <option value="choose">--choose a server--</option>
-                <option value="mailserv">mail server</option>
-                <option value="virtual">virtual machine</option>
-                <option value="proxy">proxy server</option>
-            </select>
-            <br><br>
+        <label for="pass">Password:</label>
+        <input type="text" id="pass" required>
+        <br><br>
 
-            <label for="specify">Please Specify your role:</label><br>
-            <input type="radio" name="specify" autofocus required>
-            <label for="text">Admin</label><br>
-            <input type="radio" name="specify" autofocus required>
-            <label for="text">Engineer</label><br>
-            <input type="radio" name="specify" autofocus required>
-            <label for="text">Manager</label><br>
-            <input type="radio" name="specify" autofocus required>
-            <label for="text">Guest</label><br><br>
+        <label for="city">City of Employment:</label>
+        <input type="text" id="city" required>
+        <br><br>
 
-            <label for="signon">Single Sign-on to the following</label><br><br>
-            <input type="checkbox" id="">
-            <label for="mail">Mail</label><br>
-            <input type="checkbox" id="">
-            <label for="mail">Payroll</label><br>
-            <input type="checkbox" id="">
-            <label for="mail">Self-Service</label><br><br>
+        <label for="server">Web Server:</label>
+        <select name="server" id="server" class="select">
+            <option value="choose">--choose a server--</option>
+            <option value="mailserv">mail server</option>
+            <option value="virtual">virtual machine</option>
+            <option value="proxy">proxy server</option>
+        </select>
+        <br><br>
+
+        <label for="specify">Please Specify your role:</label><br>
+        <input type="radio" name="specify" required>
+        <label for="admin">Admin</label><br>
+        <input type="radio" name="specify" required>
+        <label for="engr">Engineer</label><br>
+        <input type="radio" name="specify" required>
+        <label for="manager">Manager</label><br>
+        <input type="radio" name="specify" required>
+        <label for="guest">Guest</label><br><br>
+
+        <label for="signon">Single Sign-on to the following</label><br><br>
+        <input type="checkbox">
+        <label for="mail">Mail</label><br>
+        <input type="checkbox">
+        <label for="mail">Payroll</label><br>
+        <input type="checkbox">
+        <label for="mail">Self-Service</label><br><br>
 
 
-            <button type="button" style="margin-left: 50px;">Login</button>
-            <button type="button" style="margin-left: 20px;">Reset</button>
+        <button type="button" style="margin-left: 50px;">Login</button>
+        <button type="button" style="margin-left: 20px;">Reset</button>
 
-        </form>
+    </form>
 
-        <center>
-            <button>
-                <a href="regform.html">Registeration Form</a>
-            </button>
-        </center>
+    <br><br>
+
+    <a href="regform.html">Registration Form</a>
+
 </body>
 
 </html>
