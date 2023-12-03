@@ -7,18 +7,50 @@
     <title>assignment2</title>
 
     <style>
-        .next {
-            text-decoration: none;
-            padding: 10px;
-            background: green;
-            color: white;
+        input {
+            margin-left: 30px;
             border-radius: 5px;
+        }
+
+        .select {
+            margin-left: 30px;
+            border-radius: 20px;
+        }
+
+        button {
+            border-radius: 5px;
+            border-color: aqua;
+            padding: 6px;
+            width: 200px;
+        }
+
+        body {
+            background-color: antiquewhite;
         }
     </style>
 
 </head>
 
 <body>
+
+    <ul>
+        <li>
+            <a href="index.html"><i>Home</i></a>
+        </li>
+        <li>
+            <a href="exercise.html"><i>About Us</i></a>
+        </li>
+        <li>
+            <a href="assignment.html"><i>Contact Us</i></a>
+        </li>
+        <li>
+            <a href="assignment2.html"><i>Service</i></a>
+        </li>
+        <li>
+            <a href="regform.html"><i>Register</i></a>
+        </li>
+    </ul>
+    <br><br>
 
     <img src="img/smallbusiness.jpg" alt="" width="800">
     <p>Our range of business suites everyone, from <br>
@@ -87,11 +119,141 @@
 
     <img src="img/getty.jpg" alt="getty" width="800">
 
-    <br><br>
+    <br><br><br>
+    <form>
 
-    <center>
-        <a href="tabledesign.html" class="next">TABLE DESIGN</a>
-    </center>
+        <h1>Personal Information</h1>
+
+        <label for="user">Username:</label>
+        <input type="text" id="user" required>
+        <br><br>
+
+        <label for="pass">Password:</label>
+        <input type="text" id="pass" required>
+        <br><br>
+
+        <label for="city">City of Employment:</label>
+        <input type="text" id="city" required>
+        <br><br>
+
+        <label for="server">Web Server:</label>
+        <select name="server" id="server" class="select">
+            <option value="choose">--choose a server--</option>
+            <option value="mailserv">mail server</option>
+            <option value="virtual">virtual machine</option>
+            <option value="proxy">proxy server</option>
+        </select>
+        <br><br>
+
+        <label for="specify">Please Specify your role:</label><br>
+        <input type="radio" name="specify" required>
+        <label for="admin">Admin</label><br>
+        <input type="radio" name="specify" required>
+        <label for="engr">Engineer</label><br>
+        <input type="radio" name="specify" required>
+        <label for="manager">Manager</label><br>
+        <input type="radio" name="specify" required>
+        <label for="guest">Guest</label><br><br>
+
+        <label for="signon">Single Sign-on to the following</label><br><br>
+        <input type="checkbox">
+        <label for="mail">Mail</label><br>
+        <input type="checkbox">
+        <label for="mail">Payroll</label><br>
+        <input type="checkbox">
+        <label for="mail">Self-Service</label><br><br>
+
+
+        <button type="button" style="margin-left: 50px;">Login</button>
+        <button type="button" style="margin-left: 20px;">Reset</button>
+
+    </form>
+    <br><br><br>
+
+    <table border="2" cellpadding="10">
+
+        <tr>
+
+            <th>Day/Period</th>
+            <th>9:30-10:20</th>
+            <th>10:20-11:10</th>
+            <th>11:10-12:00</th>
+            <th>12:00-12:40</th>
+            <th>12:40-1:30</th>
+            <th>1:30-2:20</th>
+            <th>2:20-3:10</th>
+            <th>3:10-4:00</th>
+
+        </tr>
+
+        <tr>
+
+            <th>Monday</th>
+            <td>Eng</td>
+            <td>Maths</td>
+            <td>Che</td>
+            <td rowspan="6">LUNCH</td>
+            <td colspan="3">LAB</td>
+            <td>Phy</td>
+
+        </tr>
+
+        <tr>
+
+            <th>Tuesday</th>
+            <td colspan="3">LAB</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td>Maths</td>
+            <td>SPORTS</td>
+
+        </tr>
+
+        <tr>
+
+            <th>Wednessday</th>
+            <td>Maths</td>
+            <td>Phy</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td colspan="3">LIBRARY</td>
+
+        </tr>
+
+        <tr>
+
+            <th>Thursday</th>
+            <td>Phy</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td colspan="3">LAB</td>
+            <td>Maths</td>
+
+        </tr>
+
+        <tr>
+
+            <th>Friday</th>
+            <td colspan="3">LAB</td>
+            <td>Maths</td>
+            <td>Che</td>
+            <td>Eng</td>
+            <td>Phy</td>
+
+        </tr>
+
+        <tr>
+
+            <th>Saturday</th>
+            <td>Eng</td>
+            <td>Che</td>
+            <td>Maths</td>
+            <td colspan="3">SEMINAR</td>
+            <td>SPORTS</td>
+
+        </tr>
+        <br><br><br>
+    </table>
 
 </body>
 

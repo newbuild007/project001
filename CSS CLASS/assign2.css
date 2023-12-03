@@ -1,0 +1,41 @@
+body {
+    width: 60%;
+}
+
+form {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+
+}
+
+table {
+    border: 1px solid black;
+    padding: 20px 10px;
+}
+
+td {
+    padding: 5px;
+}
+
+input[type="text"] {
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="calendar"] {
+    outline: none;
+    width: 25%;
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    outline: none;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+}

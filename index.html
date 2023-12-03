@@ -4,48 +4,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>whogohost</title>
-    <link rel="icon" href="img/Whogohost/logo.png">
-    <link rel="stylesheet" href="whoghost.css">
+    <title>Home</title>
+    <style>
+        table {
+            border: 2px, solid black;
+            border-collapse: collapse;
+        }
+
+        .didi {
+            text-decoration: none;
+            color: white;
+        }
+
+        /* body {
+            background-color: gray;
+            text-align: center;
+        } */
+        form {
+            background-color: gray;
+            border-radius: 6px;
+            box-shadow: inset 0px 0px 70px white;
+            padding: 30px;
+            width: 20%;
+        }
+
+        input {
+            outline: none;
+            padding: 8px;
+            background-color: gray;
+            border-radius: 5px;
+            border: none;
+            box-shadow: inset 0px 0px 30px white;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        button {
+            outline: none;
+            border-radius: 5px;
+            background-color: gray;
+            padding: 8px;
+            width: 170px;
+            border: none;
+            box-shadow: inset 0px 0px 30px white;
+            width: 100%;
+            box-sizing: border-box;
+            color: white;
+
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
 </head>
 
 <body>
-    <center>
-        <img src="img/Whogohost/whogohost.png" alt="1" width="200" style="margin-top: 20px;">
-        <br><br>
-        <form>
+    <h1>
+        <img src="img/Valumax Logo.jpg" alt="logo1" height="50" width="50">
+        <a href="#"><i>VALUEMAX</i></a>
+    </h1>
 
-            <h2>Secure Client Login</h2>
+    <ul>
+        <li>
+            <a href="index.html"><i>Home</i></a>
+        </li>
+        <li>
+            <a href="exercise.html"><i>About Us</i></a>
+        </li>
+        <li>
+            <a href="assignment.html"><i>Contact Us</i></a>
+        </li>
+        <li>
+            <a href="assignment2.html"><i>Service</i></a>
+        </li>
+        <li>
+            <a href="regform.html"><i>Register</i></a>
+        </li>
+    </ul>
 
-            <label for="email" class="top">Email Address</label><br>
-            <input type="text" id="email" placeholder="Enter email" required><br><br>
+    <img src="img/Valumax Logo2.jpg" alt="logo2" height="200" width="355">
+    <table border="2" cellpadding="6">
+        <tr>
+            <th colspan="6"><i>Time-Table</i></th>
+        </tr>
+        <tr>
+            <th rowspan="8"><i>Hours</i></th>
+            <th><i>Mon</i></th>
+            <th><i>Tues</i></th>
+            <th><i>Weds</i></th>
+            <th><i>Thur</i></th>
+            <th><i>Fri</i></th>
+        </tr>
+        <tr>
+            <td><i>Science</i></td>
+            <td><i>Maths</i></td>
+            <td><i>Science</i></td>
+            <td><i>Maths</i></td>
+            <td><i>Art</i></td>
+        </tr>
+        <tr>
+            <td><i>Social</i></td>
+            <td><i>History</i></td>
+            <td><i>English</i></td>
+            <td><i>Social</i></td>
+            <td><i>Sport</i></td>
+        </tr>
+        <tr>
+            <th colspan="5"><i>Launch</i></th>
+        </tr>
+        <tr>
+            <td><i>Science</i></td>
+            <td><i>Maths</i></td>
+            <td><i>Science</i></td>
+            <td><i>Maths</i></td>
+            <td><i>Art</i></td>
+        </tr>
+        <tr>
+            <th colspan="5"><i>Break</i></th>
+        </tr>
+        <tr>
+            <td><i>Science</i></td>
+            <td><i>Maths</i></td>
+            <td><i>Science</i></td>
+            <td><i>Maths</i></td>
+            <td rowspan="2"><i>Project</i></td>
+        </tr>
+        <tr>
+            <td><i>Social</i></td>
+            <td><i>History</i></td>
+            <td><i>English</i></td>
+            <td><i>Social</i></td>
+        </tr>
+        <br><br><br>
 
-            <label for="pass" style="margin-right: 205px;">Password</label>
-            <label class="forgot"><a href="#">Forgot?</a></label>
-            <input type="text" id="pass" placeholder="Password" required><br><br>
+    </table>
 
-            <input type="checkbox" id="remember">
-            <label style="margin-right: 150px;">Remember Me</label><br><br>
+    <br><br><br>
 
-            <button type="button" class="in">Login</button><br><br>
-            <hr>
+    <form>
 
-            <label>or</label>
-            <br><br>
+        <input type="text"> <br><br>
+        <input type="text"><br><br>
 
-            <button type="button" class="fcb">Sign in with Facebook</button><br><br>
-            <hr>
+        <button>
+            <a href="#" class="didi">LOGIN</a>
+        </button>
 
-            <label>Not a member yet?</label>
-            <label><a href="#">Create a New Account</a></label>
-
-        </form>
-        <br><br>
-
-        <a href="assignment.html" class=link>NEXT PAGE</a>
-
-    </center>
-
+    </form>
 </body>
 
 </html>

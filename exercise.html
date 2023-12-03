@@ -13,19 +13,51 @@
             background: wheat;
             width: 30%;
         }
-
-        a {
-            text-decoration: none;
-            padding: 5px;
-            background: green;
+        table {
+            border: 2px, solid black;
+            border-collapse: collapse;
+            background: rgb(96, 107, 209);
             color: white;
-            border-radius: 5px;
-            margin-left: 200px;
+        }
+        .submit {
+            background-color: black;
+            color: greenyellow;
+            border: none;
+            border-radius: 15px;
+            width: 150px;
+            padding: 5px;
+        }
+        .clickhere {
+            background-color: gold;
+            color: black;
+            border: none;
+            border-radius: 15px;
+            width: 150px;
+            padding: 5px;
         }
     </style>
 </head>
 
 <body>
+
+    <ul>
+        <li>
+            <a href="index.html"><i>Home</i></a>
+        </li>
+        <li>
+            <a href="exercise.html"><i>About Us</i></a>
+        </li>
+        <li>
+            <a href="assignment.html"><i>Contact Us</i></a>
+        </li>
+        <li>
+            <a href="assignment2.html"><i>Service</i></a>
+        </li>
+        <li>
+            <a href="regform.html"><i>Register</i></a>
+        </li>
+    </ul>
+    <br><br>
 
     <h1>Hire Me</h1>
 
@@ -46,7 +78,7 @@
     </ul>
 
     <p>And I also know XHTML</p>
-    <iframe src="https://www.youtube.com/watch?v=l1YM5msKYo8" frameborder="2"></iframe>
+    <!-- <iframe src="https://www.youtube.com/watch?v=l1YM5msKYo8" frameborder="2"></iframe> -->
 
     <h2>Previous Work Experience</h2>
 
@@ -58,15 +90,145 @@
         <li>Stated in Chapter 2 of Ctreating a Website: The Mursing Manual</li>
     </ul>
     <hr>
-
-    <a href="class3.html">Class Work Done</a>
-    <br><br>
-    <a href="class3workdone.html">Class Assignment Done</a>
-
     <!-- <img src="img/Screenshot 2023-10-29 123917.png" alt="screen" width="50%"> -->
 
     <!-- <a href="index.html"><img src="img/Screenshot 2023-10-29 123917.png" alt="screen" width="40%"></a> -->
+    <br><br><br>
 
+    <table border="2" cellpadding="6">
+
+        <tr>
+            <th>DAYS</th>
+            <th>1st Period</th>
+            <th>2nd Period</th>
+            <th>3rd Period</th>
+            <th>4th Period</th>
+            <th>5th Period</th>
+            <th>6th Period</th>
+            <th>7th Period</th>
+            <th>8th Period</th>
+        </tr>
+
+        <tr>
+            <th>MONDAY</th>
+            <td>Chemistry</td>
+            <td>Maths</td>
+            <td>English</td>
+            <td>Economics</td>
+            <td>Physics</td>
+            <td>Commerse</td>
+            <td>Biology</td>
+            <td>Geography</td>
+        </tr>
+
+        <tr>
+            <th>TUESDAY</th>
+            <td>Biology</td>
+            <td>Physics</td>
+            <td>English</td>
+            <td>Commerse</td>
+            <td>Geography</td>
+            <td>Chemistry</td>
+            <td>Econimics</td>
+            <td>Biology</td>
+        </tr>
+
+        <tr>
+            <th>WEDNESSDAY</th>
+            <td>Biology</td>
+            <td>Physics</td>
+            <td>English</td>
+            <td>Commerse</td>
+            <td>Geography</td>
+            <td>Chemistry</td>
+            <td>Econimics</td>
+            <td>Biology</td>
+        </tr>
+
+        <tr>
+            <th>THURSDAY</th>
+            <td>Biology</td>
+            <td>Physics</td>
+            <td>English</td>
+            <td>Commerse</td>
+            <td>Geography</td>
+            <td>Chemistry</td>
+            <td>Econimics</td>
+            <td>Biology</td>
+        </tr>
+
+        <tr>
+            <th>FRIDAY</th>
+            <td>Chemistry</td>
+            <td>Maths</td>
+            <td>English</td>
+            <td>Economics</td>
+            <td>Physics</td>
+            <td>Commerse</td>
+            <td>Biology</td>
+            <td>Geography</td>
+        </tr>
+
+    </table>
+    <br><br><br>
+    <h1>FORM CLASS 1</h1>
+
+    <!-- FORMS AND FORMS ATTRIBUTES -->
+
+
+    <form>
+
+        <fieldset style="width: 30%; background: azure; text-align: center; margin-left: 100px;">
+
+            <legend>
+                <h3>Personal Information</h3>
+            </legend>
+
+            <label for="name"><b>First Name:</b></label>
+            <input type="text" Id="name" placeholder="First Name" required><br><br>
+
+            <label for="sname"><b>Second Name:</b></label>
+            <input type="text" Id="sname" placeholder="Second Name" required><br><br>
+
+            <label for="number"><b>Phone Number:</b></label>
+            <input type="number" Id="number" required><br><br>
+
+            <!-- Gender  -->
+
+            <label for="gender"><b>Gender:</b></label>
+
+            <label for="female">Female</label>
+            <input type="radio" name="gender" required>
+
+            <label for="male">Male</label>
+            <input type="radio" name="gender" required><br><br>
+
+            <button type="button" class="clickhere">CLICK HERE</button><br><br>
+
+            <input type="checkbox">
+            <label>Do yo accept to these terms and conditions?</label><br><br>
+
+
+            <!-- To Create a Dropdown -->
+
+            <label for="select"><b>Select your car:</b></label>
+
+            <select name="cars" id="select">
+                <option value="chosose">Choose One</option>
+                <option value="mazda">Mazda</option>
+                <option value="camry">Camry</option>
+                <option value="lexus">Lexus</option>
+                <option value="toyota">Toyota</option>
+                <option value="nissan">Nissan</option>
+            </select>
+
+            <br><br>
+
+            <input type="submit" value="SUBMIT" class="submit">
+
+        </fieldset>
+
+    </form>
 </body>
 
 </html>
